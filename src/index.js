@@ -3,6 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+//import {Router, Route, browserHistory} from 'react-router';
+// import RootLink from './components/rootlink';
+
+// class App extends React.Component {
+//     render() {
+//       return (
+//        <Router history={browserHistory}>
+//          <Route path={"/"} component={RootLink}/>
+//        </Router>
+//       );
+//     }
+//   }
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
