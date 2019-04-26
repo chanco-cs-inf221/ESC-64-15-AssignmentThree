@@ -4,7 +4,7 @@ class Form extends React.Component{
 
     constructor(){
         super();
-        this.state = {
+        this.state = { //creating an initial state
             firtName : "Me",
             lastName : null
         }
@@ -12,17 +12,17 @@ class Form extends React.Component{
     }
 
     componentDidMount(){
-        this.setState( {firstName: "Bernard"})
+        this.setState( {firstName: "Bernard"}) //changing the state
 
     }
 
     render(){
-        // this.setState( firstName: "Bernard")
+    
 
        Object.assign(this.state, {firtName: "Bernard"})
         return(
             <Fragment>
-                {this.state.firtName}
+               {this.state.firtName}  {/* calling the state on page */}
             </Fragment>
         )
     }

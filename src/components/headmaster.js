@@ -8,7 +8,7 @@ class HeadMaster extends Component{
     super(props);
 
     this.state = {
-      nameHead: "Steven Josaya",
+      nameHead: "Mike Josephy",
       titleHead: "Dr",
     }
   }
@@ -17,13 +17,13 @@ class HeadMaster extends Component{
            
         return(
             <div>
-                <h1>Current HeadMaster</h1>
+                <h1>Current HeadMaster</h1><hr/>
 
                 <Media>
 
                   <img src={Head} width = "120" height="120" alt="headmaaster"/>
 
-                      <Media.Body>
+                      <Media.Body className="padding">
                         <h5>{this.state.titleHead +" "+this.state.nameHead}</h5>
                         <p>
                           Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque

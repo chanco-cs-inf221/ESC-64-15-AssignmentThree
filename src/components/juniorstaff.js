@@ -35,7 +35,7 @@ class JuniorStaff extends React.Component{
                 },
                 {
                     id: 4,
-                    name: "Bright Chadzanja",
+                    name: "Smart Kwapuka",
                     subject: "Life Skills",
                     urlImage: Teacher4
                     
@@ -49,7 +49,7 @@ class JuniorStaff extends React.Component{
         
         return(
             <div>
-                senior here..
+               
 
                 {
                     this.state.SeniorList.map((item, index) => {

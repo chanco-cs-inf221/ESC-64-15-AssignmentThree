@@ -16,7 +16,7 @@ class Home extends Component{
     <img
       className="d-block w-100"
       src={School}
-      alt="First slide"
+      alt="School"
     />
     <Carousel.Caption>
       <h3>The World Of Excellency</h3>
@@ -27,11 +27,12 @@ class Home extends Component{
     <img
       className="d-block w-100"
       src={Pilot}
-      alt="Third slide"
+      alt="Pilots"
     />
 
     <Carousel.Caption>
       <h3>Represent The Whole World Through <span> <Link to="contacts">Us </Link>On A Single Click</span></h3>
+
       <p>Bon Voyage</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -39,7 +40,7 @@ class Home extends Component{
     <img
       className="d-block w-100"
       src={Accountant}
-      alt="Third slide"
+      alt="Accountant"
     />
 
     <Carousel.Caption>

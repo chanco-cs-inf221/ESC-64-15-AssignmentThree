@@ -11,7 +11,8 @@ class OutFits extends Component{
              <div className="d-flex flex-column">
                 <ButtonGroup toggle>
                     <ToggleButton type="checkbox" defaultChecked value="1">
-                    <h1>Outfit</h1>
+                    <h1>OUTFITS</h1>
+                    {/* THE SCHOOL ACHIEVEMENTS */}
                     </ToggleButton>
                 </ButtonGroup>
                 

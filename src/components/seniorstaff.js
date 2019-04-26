@@ -21,7 +21,7 @@ class SeniorStaff extends React.Component{
                 },
                 {
                     id: 2,
-                    name: "Brian Kadaleka",
+                    name: "Bridget Kadaleka",
                     subject: "Computer Studies",
                     urlImage: Teacher2
                     
@@ -49,8 +49,7 @@ class SeniorStaff extends React.Component{
         
         return(
             <div>
-                senior here..
-
+            
                 {
                     this.state.SeniorList.map((item, index) => {
                      return (

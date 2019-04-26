@@ -12,7 +12,7 @@ const SideBar = (props) => {
       </Link>
     
       <Link className="menu-item" to="/forms">
-        Forms
+        Register
       </Link>
       <Link className="menu-item" to="/success">
         OutFits! &rarr;
@@ -22,12 +22,11 @@ const SideBar = (props) => {
         Other Staffs
       </Link>
 
-      <Link className="menu-item" to="/enroll">
-        Enroll Wih Us
-      </Link>
-
       <Link className="menu-item" to="/headmaster">
         HeadTeacher
+      </Link>
+      <Link className="menu-item" to="/director">
+        Director
       </Link>
 
       <Link className="menu-item" to="/grade-entry-point">

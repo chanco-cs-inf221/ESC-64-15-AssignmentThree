@@ -7,7 +7,7 @@ class ContactUs extends Component{
             <div>
                 <h1>Contact Us</h1>
                 <hr/>
-                Under construction...
+                Under development...
             </div>
         )
     }
