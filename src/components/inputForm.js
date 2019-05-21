@@ -8,6 +8,7 @@ const ToDoForm = (props) => {
                     value={props.currentStudent} 
                     onChange={props.regiStudent}/* a callback function to take the value of the input due to form field value change */
                 />
+               
                 <button type="submit">Submit</button>
             </form>
         </div>

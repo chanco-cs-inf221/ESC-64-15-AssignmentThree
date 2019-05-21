@@ -20,6 +20,7 @@ class Home extends Component{
     />
     <Carousel.Caption>
       <h3>The World Of Excellency</h3>
+    
       <p>Your Child's future is our priority. <br/> <span style={{fontSize: 18}}><Link to="/enroll">&rarr; Enroll Today</Link></span></p>
     </Carousel.Caption>
   </Carousel.Item>

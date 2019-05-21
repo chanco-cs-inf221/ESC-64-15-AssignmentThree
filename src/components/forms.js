@@ -18,6 +18,7 @@ class Forms extends Component{
                     {
                         name: "Bernard Masache",
                         
+                        
                     },
                 ],
                 currentStudent: ''
@@ -30,7 +31,8 @@ class Forms extends Component{
         let students = this.state.students;
         let currentStudent = this.state.currentStudent;
         students.push({
-            name: currentStudent
+            name: currentStudent,
+        
             
         });
        if (students === null) {

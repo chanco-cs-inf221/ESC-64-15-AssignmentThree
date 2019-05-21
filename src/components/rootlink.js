@@ -18,7 +18,7 @@ class RootLink extends Component {
               </div>
 
               <div className="col-sm-7  margin-window">
-                  {this.props.children} {/* to show all pages passesd as a node children after a tab or link click */}
+                  {this.props.children} {/* to show all pages passed as a node children after a tab or link click */}
               </div>
           </div>
       

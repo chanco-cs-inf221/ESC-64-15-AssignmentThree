@@ -1,4 +1,6 @@
 .outputList{
+  margin-top: 5px;
+  padding: 2%;
   background-color: rgb(114, 171, 172);
   text-align: center;
   border-radius: 0 10px 0 10px;

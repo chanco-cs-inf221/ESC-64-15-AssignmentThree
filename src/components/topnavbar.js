@@ -6,7 +6,7 @@ import {Link} from 'react-router';
 class TopNavBar extends React.Component{
     render(){
         return(
-            <div id="page-wrap">
+            <div id="page-wrap" >
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Navbar.Brand href="/">Masache Private Schools(MPS)</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

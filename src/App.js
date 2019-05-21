@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import {Router, Route, browserHistory, IndexRoute} from 'react-router';
 
-import OutFits from './components/outfits';
+import OutFits from './components/studentsForm';
 import HeadMaster from './components/headmaster';
 import Director from './components/director';
 import Forms from './components/forms';
@@ -22,7 +22,7 @@ class App extends Component {
       return (
        <Router history={browserHistory}>
          <Route path={"/"} component={RootLink}>
-         <Route path={"Director"} component={Director}/>
+              <Route path={"Director"} component={Director}/>
 
               <IndexRoute component={Home}/> {/* default route to be displayed with the first loader page */}
               <Route path={"school-achivements"} component={OutFits}/>
